@@ -9,6 +9,7 @@ interface CoursesDataType {
   key: React.Key;
   courses: string;
   courseCompletionDate:Object;
+  numberOfGraduates:string;
   cycle: string;
   isNoWorking: number;
   isWorking: number;
@@ -41,7 +42,12 @@ export const coursesColumns:any []  = [
     },{
       title: 'מועד סיום',
       dataIndex: 'courseCompletionDate',
-    },{
+    },
+    {
+      title: 'מס בוגרים',
+      dataIndex: 'numberOfGraduates',
+    },
+    {
       title: 'שם הקורס',
       dataIndex: 'courses',
     },
@@ -55,6 +61,7 @@ export const coursesColumns:any []  = [
       key: '1',
       courses: 'קורס פיתוח תוכנה',
       courseCompletionDate: JSON.stringify(Date()),
+      numberOfGraduates:'12',
       cycle: 'ט"ה',
       isNoWorking: 5,
       isWorking: 55555555
@@ -63,6 +70,7 @@ export const coursesColumns:any []  = [
       key: '2',
       courses: 'בדיקות תוכנה QA',
       courseCompletionDate: Date(),
+      numberOfGraduates:'12',
       cycle: 'ק"ר',
       isNoWorking: 5,
       isWorking: 55555555
@@ -71,6 +79,7 @@ export const coursesColumns:any []  = [
       key: '3',
       courses: 'סייבר',
       courseCompletionDate: Date(),
+      numberOfGraduates:'12',
       cycle: 'ש"ח',
       isNoWorking: 5,
       isWorking: 55555555
