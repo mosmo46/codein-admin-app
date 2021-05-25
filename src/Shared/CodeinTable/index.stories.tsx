@@ -7,4 +7,4 @@ export default {
     component: OneTable
 }
 
-export const Default = ()=><OneTable/> ;
+export const Default = ()=><OneTable /> ;

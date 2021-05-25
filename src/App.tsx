@@ -1,13 +1,14 @@
-import React from 'react';
+import  CodeinTable from './Shared/CodeinTable';
 import './App.css';
-import OneTable from './Components/CodeinTable';
-// import Home from './Pages/Home';
+
+//Admin Page
+import {RecruitmentPage} from './Pages/RecruitmentPage'
+
 
 function App() {
   return (
     <div className="App">
-      <h1>App</h1>
-      <OneTable/>
+        <RecruitmentPage/>
     </div>
   );
 }
