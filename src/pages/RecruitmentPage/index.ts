@@ -1,3 +1,3 @@
-import RecruitmentPage from './RecruitmentPage';
+import AdminPage from './AdminPage';
 
-export {RecruitmentPage}
+export {AdminPage as RecruitmentPage}

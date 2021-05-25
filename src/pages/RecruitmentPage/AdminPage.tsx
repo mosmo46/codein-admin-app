@@ -5,7 +5,7 @@ import  CodeinTable from '../../Shared/CodeinTable';
 import {coursesColumns,coursesData,graduatesColumns,graduatesData} from '../../data/data';
 
 
-function RecruitmentPage() {
+function AdminPage() {
 
     return (
         <div>
@@ -16,4 +16,4 @@ function RecruitmentPage() {
     )
 }
 
-export default RecruitmentPage
+export default AdminPage
