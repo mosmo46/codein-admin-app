@@ -1,10 +1,10 @@
 import React from 'react';
-import OneTable from './index';
-
+import CodeinTable from './index';
+import {coursesColumns,coursesData} from '../CodeinTable/mock'
 
 export default {
-    title:'OneTable',
-    component: OneTable
+    title:'CodeinTable',
+    component: CodeinTable
 }
 
-export const Default = ()=><OneTable /> ;
+export const Default = ()=><CodeinTable columns={coursesColumns} data={coursesData}/> ;
