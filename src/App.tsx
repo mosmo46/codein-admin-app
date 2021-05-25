@@ -3,7 +3,7 @@ import './App.css';
 
 import DropDownForTable from './data/DropDownForTable';
 //Admin Page
-import {RecruitmentPage} from './Pages/RecruitmentPage'
+import {RecruitmentPage} from './pages/RecruitmentPage'
 
 
 function App() {
